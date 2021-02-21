@@ -1,0 +1,28 @@
+.header {
+    color: #464444;
+    font-size: 30px;
+    padding: 20px 10px;
+    font-weight: 600;
+}
+
+.about-details {
+    display:flex;
+    color: #464444;
+    font-size: 17px;
+    padding: 0px 10px;
+    .desc {
+        width: 50%;
+        /*padding: 10px;*/
+    }
+    .info {
+        width: 50%;
+        margin-left: 50px;
+        .info-item {
+            margin-bottom: 10px;
+            .label {
+                margin-right: 8px;
+                font-weight: bold;
+            }
+        }
+    }
+}
