@@ -1,0 +1,46 @@
+.blog-container{
+    padding: 20px 10px;
+    display: flex;
+    .blog {
+        width: 400px;
+        height: 400px;
+        border: 1px solid lightgray;
+        color: #464444;
+        margin: 10px 20px;
+        box-shadow: 7px 7px 12px #9a9494;
+        .blog-item {
+            height: 85%;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .blog-img1 {
+            background-image: url('../../images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg');
+        }
+        .blog-img2 {
+            background-image: url('../../images/halacious-tZc3vjPCk-Q-unsplash.jpg');
+        }
+        .blog-img3 {
+            background-image: url('../../images/markus-spiske-MI9-PY5cyNs-unsplash.jpg');
+        }
+        .desc {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            box-sizing: border-box;
+            height: 15%;
+            .label {
+                align-items: center;
+                justify-items: center;
+                display: flex;
+            }
+            .dateTime {
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                font-size: 13px;
+                color: #827e7e;
+            }
+        }
+    }
+}

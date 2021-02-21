@@ -1,0 +1,24 @@
+.menu-main {
+    background-color: #e5eaec;
+    display: flex;
+    font-family: Nunito;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    color: #464444;
+    /*another color for menu icon is - #4baeea*/
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 77px;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        border-right: 1px dotted rgb(177, 177, 177);
+        border-bottom: 1px dotted rgb(177, 177, 177);
+        cursor: pointer;
+        outline: none;
+    }
+    
+}

@@ -1,0 +1,110 @@
+body {
+    font-family: Nunito;
+}
+
+#page{
+    height: 100vh;
+    min-height: 100%;
+    // overflow: hidden;
+    background-color: #edf2f5b5;
+}
+
+.container {
+    /*margin: 70px;*/
+    font-family: Nunito;
+    height: inherit;
+    background-color: #edf2f5b5;
+    overflow-y: scroll;
+}
+
+.body-container {
+    /*width: 100%; 
+    min-height: 500px;
+    height: 100%;
+    border-radius: 30px;*/
+    // width: 70%;
+    // margin-left: 40px;
+    // margin-top: 100px;
+    display:flex;
+    height: inherit;
+    overflow-y: hidden;
+    .content-area {
+        background-color: #edf2f5b5;
+        width: 70%;
+        margin-left: 40px;
+        margin-top: 80px;
+        overflow-y: scroll;
+        /*border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;*/
+    }
+}
+
+.showcase-container {
+    width: 30%;
+    /*rgb(5, 181, 225);*/
+    /*#002e5d;
+    #4baeea -- another good shade of blue that i used first.
+    */
+    background-color: #2a9ade;
+    
+    /*border-top-left-radius: 30px; 
+    border-bottom-left-radius: 30px;*/
+    /*justify-content: center;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    .photo {
+        margin-top:110px;
+        width: 180px;
+        height: 180px;
+        border: 4px solid white;
+        border-radius: 90px;
+        background-image: url('../resources/images/my-photo\ copy.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .name {
+        font-size: 32px;
+        padding: 10px;
+        margin-top: 25px;
+        color: white;
+        font-weight: 600;
+    }
+    .role {
+        font-size: 20px;
+        color: white;
+    }
+    .social {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        .brand-icon {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+/*Unused CSS to be removed:*/
+.menu {
+    background-color: #e5eaec;
+    display: flex;
+    font-family: Nunito;
+    font-size: 15px;
+    color: #464444;
+    /*another color for menu icon is - #4baeea*/
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 77px;
+        align-items: center;
+        justify-content: space-between;
+        height: 56px;
+        border: 1px dotted rgb(177, 177, 177);
+        cursor: pointer;
+    }
+}

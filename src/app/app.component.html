@@ -1,0 +1,27 @@
+<div id="page">
+    <main-menu></main-menu>
+
+    <div id="container" class="container">
+        <div class="body-container">
+            <div class="showcase-container">
+                <div class="photo"></div>
+                <div class="name">
+                Sagar Agrawal
+                </div>
+                <div class="role">
+                    {{ jobTitle }}
+                </div>
+                <div class="social">
+                    <fa-icon [icon]="['fab', 'twitter']" class="brand-icon" (click)="twitterClick()" size="2x"></fa-icon>
+                    <fa-icon [icon]="['fab', 'linkedin-in']" class="brand-icon" (click)="linkedInClick()" size="2x"></fa-icon>                
+                    <fa-icon [icon]="['fab', 'stack-overflow']" class="brand-icon" (click)="stackOverFlowClick()" size="2x"></fa-icon>
+                    <fa-icon [icon]="['fab', 'github']" class="brand-icon" (click)="gitClick()" size="2x"></fa-icon>
+                </div>
+            </div>
+            <!-- #c2deea -->
+            <div class="content-area">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
