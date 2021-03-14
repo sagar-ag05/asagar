@@ -1,9 +1,9 @@
 <div id="resume">
     <div id="professional-summary">
-        <h3>
+        <h3 class="heading">
             Professional Summary
         </h3>
-        <ul>
+        <ul class="proj-desc">
             <li>
                 Highly motivated individual with over 12 years of experience working on multiple technologies.
             </li>
@@ -22,7 +22,7 @@
         </ul>
     </div>
     <div id="skill-sets">
-        <h3>
+        <h3 class="heading">
             Skill sets
         </h3>
         <div class="skillsets">
@@ -46,18 +46,22 @@
         </div>
     </div>
     <div>
-        <h3>
-            Employment History
+        <h3 class="heading">
+            Employment History & Projects
         </h3>
         <section>
-            <header>Princ. Software Engineer, Symantec Corporation - Pune</header>
+            <header class="designation">
+                <fa-icon [icon]="['far', 'building']" style="color:#252c30;" size="1x"></fa-icon>
+                Symantec Corporation - Sr. Princ Software Engineer.
+                <span style="font-size: 12px;">(Jul 2011 – Present)</span>
+            </header>
             <div>
                 <ol>
-                    <li>
-                        Integrated Cyber Defense Manager (ICDm)
+                    <li class="projects">
+                        <span>Integrated Cyber Defense Manager (ICDm)</span>
                         <div>
-                            <ul>
-                                <li>
+                            <ul class="proj-desc">
+                                <li>                                    
                                     Implemented micro-frontends to get various apps under one product at runtime while maintaining different code repos.
                                 </li>
                                 <li>
@@ -72,20 +76,26 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
-                        Operations Director and Unified Management Console
+                    <li class="projects">
+                        <span>Operations Director and Unified Management Console</span>
                         <div>
-                            <ul>
+                            <ul class="proj-desc">
                                 <li>
-
+                                    Implemented various UI functionality based on the mock-up including API integration, jasmine test cases etc.
+                                </li>
+                                <li>
+                                    Implemented various reusable UI components in AngularJS, Javascript, HTML, CSS. Also integrated Kendo (Telerik) UI controls in the portal.
+                                </li>
+                                <li>
+                                    Involved in requirement analysis, sprint planning, sprint demos etc. Also groomed junior developers in the team in resolving their queries.
                                 </li>
                             </ul>
                         </div>
                     </li>
-                    <li>
-                        Symantec Protection Center
+                    <li class="projects">
+                        <span>Symantec Protection Center</span>
                         <div>
-                            <ul>
+                            <ul class="proj-desc">
                                 <li>
                                     Implementation of co-existence of ASP.Net MVC with webforms to take the web portal to the next level from legacy framework.
                                 </li>
@@ -95,10 +105,10 @@
                             </ul>
                         </div>
                     </li>
-                    <li>
-                        Symantec Control Compliance Suite (CCS)
+                    <li class="projects">
+                        <span>Symantec Control Compliance Suite (CCS)</span>
                         <div>
-                            <ul>
+                            <ul class="proj-desc">
                                 <li>
                                     Implemented complex UI flows catering to creation of Security Objective having various technical checks that will allow admins to mitigate risks by creating & using action plan.
                                 </li>
@@ -112,21 +122,58 @@
             </div>
         </section>
         <section>
-            <header>Software Associate, Synechron - Pune</header>
+            <header class="designation">
+                <fa-icon [icon]="['far', 'building']" style="color:#252c30;" size="1x"></fa-icon>
+                Synechron - Software Associate
+                <span style="font-size: 12px;">(Jul 2010 – Jul 2011)</span>
+            </header>
+            <div>
+                <ol>
+                    <li class="projects">
+                        <span>CS Stars - Claims Admin</span>
+                        <div>
+                            <ul class="proj-desc">
+                                <li>
+                                    Implemented custom session handler in ASP.Net using Microsoft App Fabric (Velocity) to enhance the performance of the application.
+                                </li>
+                                <li>
+                                    Involved in implementing various UI flows and fixing defects.
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
         </section>
         <section>
-            <header>Sr. Software Engineer, Cybage - Pune</header>
+            <header class="designation">
+                <fa-icon [icon]="['far', 'building']" style="color:#252c30;" size="1x"></fa-icon>
+                Cybage Softwares - Sr. Software Engineer
+                <span style="font-size: 12px;">(Jul 2007 – Jul 2010)</span>
+            </header>
+            <div>
+                <ol>
+                    <li class="projects">
+                        <span>Altiris Inventory Solution (Symantec)</span>
+                        <div>
+                            <ul class="proj-desc">
+                                <li>
+                                    Implemented different UI using ASP.Net and extensively used unit tests to make sure code coverage is above 90%.
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
         </section>
     </div>
    
     <div id="education">
-        <h3>
-            Education
-        </h3>
+        <h3 class="heading">Education</h3>
         <div>
             <div id="degree">
                 <!--<div>Bachelor's Degree</div>-->
-                <div>Dr. D.Y. Patil College of Engineering - Pune</div>
+                <div>Dr. D.Y. Patil College of Engineering (University of Pune)</div>
                 <div class="bluefont">Bachelor of Computer Engineering, June 2007</div>
             </div>
             <!--<div id="college">
@@ -142,9 +189,9 @@
         </div>
     </div>
     <div id="honours">
-            <h3>Honours</h3>
+            <h3 class="heading">Honours</h3>
             <div>
-                <ul>
+                <ul class="proj-desc">
                     <li>
                         Symanted WoW and Applause award of various levels for different contributions.
                     </li>

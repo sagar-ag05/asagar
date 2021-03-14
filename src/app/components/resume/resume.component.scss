@@ -1,11 +1,15 @@
-.tile{
+$font-color: #464444;
+#resume {
+    color: $font-color;
+}
+.tile {
     padding: 5px 10px 5px 10px;
     border: 1px dashed #9ea9ad;
     border-radius: 10px;
     margin: 5px;
 }
 
-.skillsets{
+.skillsets {
     width: 90%;
     display: flex;
     border: 1px solid #ada7a7;
@@ -14,6 +18,35 @@
     padding: 5px;
 }
 
-.bluefont{
+.bluefont {
     color: #4fb6f5;
+}
+
+.heading {
+    word-spacing: 4px; font-size: 1.25em;
+    border-bottom: 1px solid gray;
+    width: fit-content;
+}
+
+.projects {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    span {
+        font-weight: bold;
+    }
+}
+
+.designation {
+    font-weight: bold;
+    color: #2a9ade;
+    font-size: 16px;
+    .duration {
+        font-size: 12px;
+    }
+}
+
+.proj-desc {
+    li {
+        padding: 3px 0px 3px 0px;
+    }
 }
